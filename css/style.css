@@ -301,7 +301,7 @@ padding: .5em;
   padding: .5em;
   gap: 1em;
   grid-template-columns: 1fr 1fr; 
-  grid-template-rows: 100% auto auto;
+  grid-template-rows: 90% auto auto;
   grid-template-areas: 
   "image1 image1"
   "image2 image3"
@@ -334,13 +334,17 @@ padding: .5em;
   
           }
 .offer {
-
+  display: block;
+  align-items: center;
   text-align: center;
+  padding:2em;;
+
 }  
 .icons-container{
   display: block;
   align-items: center;
   text-align: center;
+  padding: 1em;;
 
 }
 
