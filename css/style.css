@@ -292,8 +292,9 @@ margin-top: 5%;
 }
 
 .exp-container{
-  background-color: #f3f0e9;
+background-color: #f3f0e9;
 padding: .5em;
+
 }
 .gallery-container{
   display: grid;
@@ -333,18 +334,26 @@ padding: .5em;
   
           }
 .offer {
-  padding: .9em;
+
   text-align: center;
 }  
+.icons-container{
+  display: block;
+  align-items: center;
+  text-align: center;
+
+}
+
+
 .icons-container p {
   color:#000000;
   font-style: 16px;
   font-family: "Karla";
-  padding: 10px;
+  
 }  
 .icons-container img{
   width: 40%;
-  padding: .6em;
+  
 }   
 .icons-container h2{
   padding: .3em;
