@@ -493,7 +493,29 @@ background-color: rgb(104, 104, 104);
 
 /* tablet */
 
+
 @media (min-width: 600px) and (max-width: 1024px) {
+.h1{
+font-size: 2.986rem
+
+}
+
+h2 {
+font-size: 2.488rem;
+
+}
+
+h3 {
+  font-size: 1.728rem;
+
+}
+
+
+p {
+font-size:  1rem;
+
+}
+
   .banner {
     height: 230px;
     padding: 14%;
@@ -501,6 +523,7 @@ background-color: rgb(104, 104, 104);
     background-position: center 40%;
   }
 }
+
 
 @media (min-width: 600px) and (max-width: 1024px) {
   .gallery-container {
@@ -558,10 +581,10 @@ background-color: rgb(104, 104, 104);
   }
 .card3 img{
     width: 40%;
- }
- .card1 {
+}
+.card1 {
   width: 100%;
- 
+
   }
 
 .card2 {
@@ -631,7 +654,32 @@ background-color: rgb(104, 104, 104);
   margin-bottom: 10px; 
 }
 }
+
  /* Desktop */
+
+@media (min-width: 1025px) {
+.h1{
+  font-size: 3.815;
+  
+  }
+  
+  h2 {
+  font-size: 3.052rem;
+  
+  }
+  
+  h3 {
+    font-size: 1.953rem;
+  
+  }
+  
+  
+  p {
+  font-size:  1rem;
+}
+  }
+
+
 
 @media (min-width: 1025px) {
   .container {
